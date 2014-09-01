@@ -285,13 +285,13 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 	color:#fff;
 }
 .theme-invert .btn-link {
-	color:#fff;
+	color:rgba(0,0,0,.8);
 }
 .theme-invert .btn-link:hover, .theme-invert .btn-link:focus, .theme-invert .btn-link:active {
 	color:#000
 }
 .theme-invert .navbar-toggle {
-	background: rgba(0, 0, 0, 0.12);
+	background: rgba(0, 0, 0, 0.30);
 }
 .theme-invert .navbar-toggle .icon-bar {
   background: #333;
