@@ -1,34 +1,34 @@
-Magister - single-page Bootstrap template
-=============
+Massages by André Website
+=========================================
 
-Magister is a free responsive, single-page HTML5 template base on Twitter Bootstrap framework. 
-
-
-License
--------
-**Creative Commons Attribution 3.0** - http://creativecommons.org/licenses/by/3.0/
-
-
-Features
+master
 -----------
+This branch contains the base code - html, css, javascript and images only.
 
-A few features that make this template unique
-
-* HTML is clean and fat-free, you will not find any useless code inside this template.
-* Responsive design
-* Overral quality, worth to be premium template.
-
-
-Bug tracker
+heroku
 -----------
+This beanch contains the configurations necessary for serving this as a Ruby app on Heroku.
 
-Found a bug? Please create an issue here on GitHub! 
-https://github.com/pozh/Magister/issues
+Used heroku-static-site gem.
 
+workflow
+-----------
+* Make changes on main branch
+* Switch to heroku branch:
 
+   ``` git checkout heroku```
 
-Credits
--------
-* Design and development: **Sergey Pozhilov** - http://pozhilov.com
-* Photos used in template: **Unsplash** - http://unsplash.com
-* More free templates by Sergey: http://gettemplate.com
+* Checkout changes from main branch (eg. agency.css):
+    
+    ```git checkout master assets/css/magister.css```
+
+* Commit changes
+
+    ```git commit -am "Commit changes"```
+    
+* Push changes to heroku
+
+    ```git push heroku heroku:master```
+ 
+==============================
+
